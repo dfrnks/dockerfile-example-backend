@@ -1,0 +1,4 @@
+Flask~=2.0.1
+Flask-Cors~=3.0.10
+PyYAML~=5.4.1
+Random-Word~=1.0.7
