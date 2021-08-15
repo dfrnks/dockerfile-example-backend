@@ -24,7 +24,6 @@ RUN apk del .build-dependencies && rm -rf /var/cache/apk/*
 EXPOSE 5000
 
 CMD ["uwsgi", "--ini", "/app/wsgi.ini"]
-
 ```
 
 ```
