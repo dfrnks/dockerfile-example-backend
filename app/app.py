@@ -15,3 +15,7 @@ def hello_world():
 def list():
     r = RandomWords()
     return jsonify(r.get_random_words())
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
