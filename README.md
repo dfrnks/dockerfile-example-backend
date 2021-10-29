@@ -2,7 +2,7 @@
 Example docker file with python Flask
 
 ```
-FROM python:3-alpine
+FROM python:3.8-alpine
 
 RUN apk add --virtual .build-dependencies \
             --no-cache \
